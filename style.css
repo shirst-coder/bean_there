@@ -13,10 +13,6 @@ font-family: "Onest";
 background:  #FFE6A7;
 /* background-image:url(Images/Bluebackground.jpg); */
 }
-@media only screen and (max-width: 600px)
-body {
-    background: blue;
-}
 
 .nav-bar {
     Border: none;
@@ -40,15 +36,56 @@ body {
     background: #dbbb89;
     text-decoration: none;
 }
-
 .brandname {
     /* float: left; */
-    color:#6f1d1b;
-    Height: 150px;
-    font-size: 60px;
-    text-decoration: none;
+    /* color:#6f1d1b; */
+    /* font-size: 60px; */
+    /* text-decoration: none; */
     flex: 99%;
+    height: 150px;
+    
 }
+.brandname img {
+    width: 500px;
+    height: auto;
+}
+@media only screen and (max-width: 600px){
+    .nav-bar {
+        Border: none;
+        height: 50px;
+        /* flex-wrap: wrap; */
+        display: flex;
+        align-items: flex-end;
+        gap: 1rem;
+        margin: 0;
+        padding: 10px 10px 10px 10px;
+        list-style: none;
+    }
+    .linkpage {
+        color: black;
+        flex: 1%;
+        font-size: 10px;
+        Border: solid 2px #432818;
+        border-radius: 15px;
+        padding: 7px;
+        /* background: #99582a; */
+        background: #dbbb89;
+        text-decoration: none;
+    }
+    .brandname {
+        /* float: left; */
+        /* color:#6f1d1b; */
+        Height: 65px;
+        /* font-size: 10px; */
+        /* text-decoration: none; */
+        flex: 99%;
+    }
+    .brandname img {
+        width: 200px;
+        height: auto;
+    }
+}
+
 h1 {
     color: #6f1d1b;
     text-align: center;
