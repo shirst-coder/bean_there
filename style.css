@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+.onest-<uniquifier> {
+  font-family: "Onest", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+padding: 20px;
+font-family: "Onest";
+background:  #FFE6A7;
+/* background-image:url(Images/Bluebackground.jpg); */
+}
+
+.nav-bar {
+    Border: none;
+    height: 130px;
+    /* flex-wrap: wrap; */
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    list-style: none;
+}
+.linkpage {
+    color: black;
+    flex: 1%;
+    font-size: 25px;
+    Border: solid 2px #432818;
+    border-radius: 15px;
+    padding: 7px;
+    /* background: #99582a; */
+    background: #dbbb89;
+    text-decoration: none;
+}
+
+.brandname {
+    /* float: left; */
+    color:#6f1d1b;
+    Height: 150px;
+    font-size: 60px;
+    text-decoration: none;
+    flex: 99%;
+}
+h1 {
+    color: #6f1d1b;
+    text-align: center;
+}
+h2 {
+    color: #6f1d1b;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 10%;
+    /* border: solid #432818; */
+    /* box-shadow: 10px 10px #432818; */
+}
+p {
+    color: #6f1d1b;
+    text-align: center;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    Border: solid 3px #432818;
+    background: #bb9457;
+    
+}
+.social a {
+    font-size: 20px;
+    padding: 8px;
+    color: black;
+    background: #bb9457;
+    text-decoration: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 16px;
+}
+.gallery img {
+    width: 100%;
+    max-width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+figure {
+    /* border: 1px #cccccc solid; */
+    padding: 4px;
+    margin: auto;
+}
+figcaption {
+    background-color: none;
+    font-size: large;
+    color:#6f1d1b;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+
+/* @media only screen and (max-width: 1024px) and (min-width: 801px){ */
+ /* #site-header .container */
+/* } */
+/* @media only screen and (max-width: 800px){ */
+ 
+/* } */
+ 
