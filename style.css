@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
 
-.onest-<uniquifier> {
+.onest uniquifier {
   font-family: "Onest", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 
@@ -12,6 +12,10 @@ padding: 20px;
 font-family: "Onest";
 background:  #FFE6A7;
 /* background-image:url(Images/Bluebackground.jpg); */
+}
+@media only screen and (max-width: 600px)
+body {
+    background: blue;
 }
 
 .nav-bar {
@@ -129,7 +133,7 @@ figcaption {
 /* @media only screen and (max-width: 1024px) and (min-width: 801px){ */
  /* #site-header .container */
 /* } */
-/* @media only screen and (max-width: 800px){ */
+
  
 /* } */
  
