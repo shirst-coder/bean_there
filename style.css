@@ -64,6 +64,15 @@ h2 {
     /* border: solid #432818; */
     /* box-shadow: 10px 10px #432818; */
 }
+.body_text {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 60%;
+    border: none;
+    padding: 1px;
+}
 p {
     color: #6f1d1b;
     text-align: center;
@@ -93,6 +102,7 @@ p {
     max-width: 1400px;
     margin: 0 auto;
     gap: 16px;
+    margin-bottom: 50px;
 }
 .gallery img {
     width: 100%;
