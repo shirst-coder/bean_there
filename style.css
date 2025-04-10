@@ -11,13 +11,11 @@ body {
 padding: 20px;
 font-family: "Onest";
 background:  #FFE6A7;
-/* background-image:url(Images/Bluebackground.jpg); */
 }
 
 .nav-bar {
-    Border: none;
+    border: none;
     height: 130px;
-    /* flex-wrap: wrap; */
     display: flex;
     align-items: flex-end;
     gap: 1rem;
@@ -29,21 +27,15 @@ background:  #FFE6A7;
     color: black;
     flex: 1%;
     font-size: 25px;
-    Border: solid 2px #432818;
+    border: solid 2px #432818;
     border-radius: 15px;
     padding: 7px;
-    /* background: #99582a; */
     background: #dbbb89;
     text-decoration: none;
 }
 .brandname {
-    /* float: left; */
-    /* color:#6f1d1b; */
-    /* font-size: 60px; */
-    /* text-decoration: none; */
     flex: 99%;
     height: 150px;
-    
 }
 .brandname img {
     width: 500px;
@@ -51,38 +43,16 @@ background:  #FFE6A7;
 }
 @media only screen and (max-width: 600px){
     .nav-bar {
-        Border: none;
-        height: 50px;
-        /* flex-wrap: wrap; */
-        display: flex;
-        align-items: flex-end;
-        gap: 1rem;
-        margin: 0;
-        padding: 10px 10px 10px 10px;
-        list-style: none;
+         height: 50px;
     }
     .linkpage {
-        color: black;
-        flex: 1%;
         font-size: 10px;
-        Border: solid 2px #432818;
-        border-radius: 15px;
-        padding: 7px;
-        /* background: #99582a; */
-        background: #dbbb89;
-        text-decoration: none;
     }
     .brandname {
-        /* float: left; */
-        /* color:#6f1d1b; */
         Height: 65px;
-        /* font-size: 10px; */
-        /* text-decoration: none; */
-        flex: 99%;
     }
     .brandname img {
         width: 200px;
-        height: auto;
     }
 }
 
@@ -102,8 +72,6 @@ h2 {
     margin-right: auto;
     width: 60%;
     border-radius: 10%;
-    /* border: solid #432818; */
-    /* box-shadow: 10px 10px #432818; */
 }
 .body_text {
     margin-top: 0px;
@@ -154,7 +122,6 @@ p {
     border-radius: 10px;
 }
 figure {
-    /* border: 1px #cccccc solid; */
     padding: 4px;
     margin: auto;
 }
@@ -167,11 +134,4 @@ figcaption {
     text-align: center;
 }
 
-
-/* @media only screen and (max-width: 1024px) and (min-width: 801px){ */
- /* #site-header .container */
-/* } */
-
- 
-/* } */
  
