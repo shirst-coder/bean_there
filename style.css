@@ -120,6 +120,7 @@ p {
 }
 .social {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     Border: solid 3px #432818;
     background: #bb9457;
